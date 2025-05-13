@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clínica Dental</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER FIXO -->
+  <header class="header">
+    <div class="container header-content">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo Dental">
+        <span>Dr. José Carlos</span>
+      </div>
+      <nav class="nav">
+        <a href="#hero">Início</a>
+        <a href="#about">Sobre Nós</a>
+        <a href="#services">Serviços</a>
+        <a href="#contact">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Cuide do<br><span>Seu Sorriso</span></h1>
+        <p>
+          Com o Dr. José Carlos, seu sorriso está em excelentes mãos! Mais de 15 anos proporcionando sorrisos saudáveis, tratamentos personalizados e tecnologia avançada em odontologia. Seu conforto e saúde são nossa prioridade. Venha conhecer o atendimento diferenciado que vai transformar o seu sorriso!
+        </p>
+        <a href="#about" class="btn">Saiba Mais</a>
+      </div>
+      <div class="hero-image">
+        <div class="image-circle">
+          <img src="img/profile.png" alt="Dentista">
+          <div class="badge">30% de desconto</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE NÓS -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Sobre Nós</h2>
+      <p class="lead">
+        Na <strong>Clínica Odontológica do Dr. José Carlos</strong>, nossa missão é cuidar do seu sorriso de forma completa e personalizada. Com mais de 15 anos de experiência em odontologia, unimos tecnologia de ponta, técnicas avançadas e um atendimento humanizado para garantir conforto e segurança desde a primeira consulta.
+      </p>
+      <ul class="features-list">
+        <li>
+          <h3>Atendimento acolhedor</h3>
+          <p>Cada paciente é recebido com atenção, escutamos suas necessidades e montamos um plano de tratamento sob medida.</p>
+        </li>
+        <li>
+          <h3>Ambiente moderno</h3>
+          <p>Consultórios equipados com aparelhos de última geração, visando diagnósticos precisos e procedimentos mais rápidos.</p>
+        </li>
+        <li>
+          <h3>Compromisso com a saúde</h3>
+          <p>Usamos materiais de alta qualidade e seguimos rigorosos protocolos de higiene para garantir resultados duradouros e seguros.</p>
+        </li>
+      </ul>
+      <p class="closing">
+        Acreditamos que um sorriso saudável reflete bem-estar e autoestima. <strong>Venha nos conhecer</strong> e descubra como transformar a sua experiência odontológica em um processo tranquilo, eficiente e, acima de tudo, humano.
+      </p>
+    </section>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Serviços</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="img/limpeza.jpg" alt="Limpeza Profunda">
+          <h3>Limpeza Profunda</h3>
+          <p>Um cuidado minucioso para remover placa e deixar seus dentes brilhando.</p>
+        </div>
+        <div class="service-card">
+          <img src="img/clareamento.jpg" alt="Clareamento">
+          <h3>Clareamento</h3>
+          <p>Dentes mais brancos de forma segura e eficaz.</p>
+        </div>  
+        <div class="service-card">
+          <img src="img/checkup.jpg" alt="Check-up Geral">
+          <h3>Check-up Geral</h3>
+          <p>Avaliação completa para manter sua saúde bucal em dia.</p>
+        </div>
+        <div class="service-card">
+          <img src="img/aparelhos.jpg" alt="Aparelhos">
+          <h3>Aparelhos</h3>
+          <p>Correção de posição para um sorriso alinhado e harmônico.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section id="gallery" class="gallery section">
+    <div class="container">
+      <h2>Nosso Espaço</h2>
+      <div class="gallery-grid">
+        <img src="img/clinicaInterior.jpg" alt="Interior da clínica">
+        <img src="img/clinicaEquipe.jpg" alt="Equipe sorrindo">
+        <img src="img/clinicaEquipamentos.jpg" alt="Equipamentos modernos">
+        <img src="img/clinicaPaciente.jpg" alt="Paciente satisfeito">
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contato</h2>
+      <p>Fale com a gente! Preencha abaixo que retornamos rapidinho.</p>
+ <form action="https://formsubmit.co/wesleydeoliveira336@gmail.com" method="POST">
+  <!-- Escondidos para controlar o comportamento do FormSubmit -->
+  <!-- 1) Para onde redirecionar após o sucesso -->
+  <input type="hidden" name="_next" value="http://127.0.0.1/meu-projetoAtt/obrigado.html">
+  <!-- 2) Desativa o rodapé padrão do FormSubmit -->
+  <input type="hidden" name="_template" value="minimal">
+  <!-- 3) Desativa o captcha -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <input type="text"    name="name"    placeholder="Seu Nome"    required>
+  <input type="email"   name="email"   placeholder="Seu Email"   required>
+  <textarea name="message" rows="4"   placeholder="Sua Mensagem" required></textarea>
+  <button type="submit">Enviar</button>
+</form>
+
+
+
+    </div>
+  </section>
+  <!-- REDES SOCIAIS -->
+  <div class="social">
+    <a href="https://facebook.com/"   target="_blank" class="social-icon"><img src="img/facebook.svg"   alt="Facebook"></a>
+    <a href="https://x.com/"    target="_blank" class="social-icon"><img src="img/x.svg"    alt="X"></a>
+    <a href="https://instagram.com/"  target="_blank" class="social-icon"><img src="img/instagram.svg"  alt="Instagram"></a>
+  </div>
+</body>
+</html>
+
